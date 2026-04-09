@@ -92,3 +92,48 @@ nav ul li:hover {
 /* <!-- paragraph --> */
 
 /* <!-- image --> */
+
+[class^="img"] {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  background: rgba(0, 0, 0, 0.605);
+  color: white;
+  font-size: 2rem;
+  padding: 1.4rem 5rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+
+.img1 {
+  background: url(./assets/a.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img2 {
+  background: url(./assets/b.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img3 {
+  background: url(./assets/c.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.img4 {
+  background: url(./assets/d.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+}
